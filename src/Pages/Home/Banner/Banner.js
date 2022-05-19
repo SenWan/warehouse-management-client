@@ -18,8 +18,8 @@ const Banner = () => {
                 alt="First slide"
             />
             <Carousel.Caption>
-                <h3>Ball Handling</h3>
-                <p>It helps Your Arms Stronger</p>
+                <h3>House No. 1</h3>
+                <p>Location : 1234, California</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -30,8 +30,8 @@ const Banner = () => {
             />
 
             <Carousel.Caption>
-                <h3>Work Hard</h3>
-                <p>There is no shortcut. You have to work hard</p>
+                <h3>House No. 2</h3>
+                <p>Location : 23, Washington DC</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,9 +42,9 @@ const Banner = () => {
             />
 
             <Carousel.Caption>
-                <h3>Boxing</h3>
+                <h3>House No. 3</h3>
                 <p>
-                    Boxing services are available here
+                    Location : 009, New York
                 </p>
             </Carousel.Caption>
         </Carousel.Item>
