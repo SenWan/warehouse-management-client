@@ -1,0 +1,14 @@
+.inventory{
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+.image{
+    height: 300px;
+}
