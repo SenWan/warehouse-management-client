@@ -4,6 +4,7 @@ import auth from '../../../firebase.init';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../../Shared/Loading/Loading';
 
 const Register = () => {
     const [
@@ -15,6 +16,10 @@ const Register = () => {
 
       const [updateProfile, updating] = useUpdateProfile(auth);
       const navigate = useNavigate();
+
+      if(loading || updating){
+        return  <Loading></Loading>
+      }
 
       const handleRegister = async event => {
           event.preventDefault();
