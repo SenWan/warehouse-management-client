@@ -1,0 +1,110 @@
+[
+    {
+        "_id": 1,
+        "name": "Warehouse01",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp01",
+        "img": "img.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Warehouse02",
+        "description": "You will get all inventory from this warehouse",
+        "price": 300,
+        "quantity": 3000,
+        "supplier": "supp02",
+        "img": "img1.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Warehouse03",
+        "description": "You will get all inventory from this warehouse",
+        "price": 250,
+        "quantity": 3500,
+        "supplier": "supp03",
+        "img": "img2.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "Warehouse04",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp04",
+        "img": "img3.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "Warehouse05",
+        "description": "You will get all inventory from this warehouse",
+        "price": 500,
+        "quantity": 7000,
+        "supplier": "supp05",
+        "img": "img4.jpg"
+    },
+    {
+        "_id": 6,
+        "name": "Warehouse06",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp06",
+        "img": "img5.jpg"
+    },
+    {
+        "_id": 7,
+        "name": "Warehouse07",
+        "description": "You will get all inventory from this warehouse",
+        "price": 100,
+        "quantity": 4000,
+        "supplier": "supp07",
+        "img": "img6.jpg"
+    },
+    {
+        "_id": 8,
+        "name": "Warehouse08",
+        "description": "You will get all inventory from this warehouse",
+        "price": 100,
+        "quantity": 4000,
+        "supplier": "supp08",
+        "img": "img7.jpg"
+    },
+    {
+        "_id": 9,
+        "name": "Warehouse09",
+        "description": "You will get all inventory from this warehouse",
+        "price": 900,
+        "quantity": 4000,
+        "supplier": "supp09",
+        "img": "img8.jpg"
+    },
+    {
+        "_id": 10,
+        "name": "Warehouse10",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp10",
+        "img": "img9.jpg"
+    },
+    {
+        "_id": 11,
+        "name": "Warehouse01",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp11",
+        "img": "img10.jpg"
+    },
+    {
+        "_id": 12,
+        "name": "Warehouse01",
+        "description": "You will get all inventory from this warehouse",
+        "price": 200,
+        "quantity": 4000,
+        "supplier": "supp12",
+        "img": "img12.jpg"
+    }
+]
