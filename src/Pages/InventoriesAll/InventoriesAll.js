@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Inventory from '../Inventory/Inventory';
-import './Inventories.css'
+import InventoryAll from '../InventoryAll/InventoryAll';
 
-const Inventories = () => {
+const InventoriesAll = () => {
     const [inventories, setInventories] = useState([]);
 
     useEffect(()=> {
@@ -12,17 +11,18 @@ const Inventories = () => {
     }, [])
     return (
         <div id='inventories' className='container'>
-            <h2 className='inventories-title'>Inventories</h2>
+            <h2 className='inventories-title'>Manage Inventory</h2>
             <div className='inventories-container'>
                 {
-                    inventories.slice(0,6).map(inventory => <Inventory
-                    key={inventory._id}
-                    inventory={inventory}
-                    ></Inventory>)
+                    inventories.map(inventoryall => <InventoryAll
+                    key={inventoryall._id}
+                    inventoryall={inventoryall}
+                    ></InventoryAll>)
                 }
             </div>
+            
         </div>
     );
 };
 
-export default Inventories;
+export default InventoriesAll;

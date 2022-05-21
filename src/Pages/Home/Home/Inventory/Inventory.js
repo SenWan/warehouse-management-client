@@ -6,7 +6,7 @@ const Inventory = ({inventory}) => {
     const {name, img, description, quantity, price, supplier} = inventory;
 
     const navigate = useNavigate();
-    const navigateInventoryDetails = (name) => {
+    const navigateInventoryDetails = name => {
         navigate(`/inventory/${name}`)
     }
     return (
