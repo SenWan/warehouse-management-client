@@ -25,6 +25,13 @@ const Header = () => {
                 <Nav.Link className='text-white menu fw-bold fs-6' as={Link} to='blogs'>Blogs</Nav.Link>
                 {
                     user ?
+                    <Nav.Link className='text-white menu fw-bold fs-6' as={Link} to='/inventory/:inventoryId/allinventory'>ManageItems</Nav.Link>
+                    :
+                    <Nav.Link className='btn text-white menu fw-bold fs-6' eventKey={2} as={Link} to="login">
+                </Nav.Link>
+                }
+                {
+                    user ?
                     <button onClick={handleSignOut} className='btn text-white fw-bold fs-6 bg-primary'>Signout</button>
                     :
                     <Nav.Link className='btn text-white menu fw-bold fs-6' eventKey={2} as={Link} to="login">
