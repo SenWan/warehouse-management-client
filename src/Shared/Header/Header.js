@@ -23,6 +23,8 @@ const Header = () => {
                 <Nav>
                 <Nav.Link href='home#inventories' className='text-white fw-bold fs-6'>Inventories</Nav.Link>
                 <Nav.Link className='text-white menu fw-bold fs-6' as={Link} to='blogs'>Blogs</Nav.Link>
+                <Nav.Link href='home#about' className='text-white menu fw-bold fs-6'>About</Nav.Link>
+                <Nav.Link href='home#contact' className='text-white menu fw-bold fs-6'>Contact</Nav.Link>
                 {
                     user ?
                     <Nav.Link className='text-white menu fw-bold fs-6' as={Link} to='/inventory/:inventoryId/allinventory'>ManageItems</Nav.Link>
