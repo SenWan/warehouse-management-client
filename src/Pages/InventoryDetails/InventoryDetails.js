@@ -9,10 +9,11 @@ const InventoryDetails = () => {
         navigate('/inventory/:inventoryId/allinventory')
     }
     return (
-        <div className='text-center'>
+        <div className='text-center' style={{height: '63vh'}}>
             <h2 className='mb-5 text-primary'>Inventory Details</h2>
             <h4>{inventoryId}</h4>
-            <Button onClick={navigateAllInventory}>Manage Inventories</Button>
+            <input type="number" className='p-2' name="" placeholder='Restock the Items' id="" /><br />
+            <Button className='mt-5' onClick={navigateAllInventory}>Manage Inventories</Button>
         </div>
     );
 };

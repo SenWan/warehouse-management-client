@@ -6,7 +6,7 @@ const Inventory = ({inventory}) => {
     const {name, img, description, quantity, price, supplier} = inventory;
 
     const navigate = useNavigate();
-    const navigateInventoryDetails = name => {
+    const navigateInventoryDetails = (name) => {
         navigate(`/inventory/${name}`)
     }
     return (
@@ -18,7 +18,7 @@ const Inventory = ({inventory}) => {
                 <h6>Quantity: {quantity}</h6>
                 <h6>Supplier: {supplier}</h6>
                 <p>{description}</p>
-                <button className='btn btn-primary w-100' onClick={()=> navigateInventoryDetails(name)}>Update</button>
+                <button className='btn btn-primary w-100' onClick={()=> navigateInventoryDetails(`Name: ${name} Quantity: ${quantity}`)}>Update</button>
             </div>
         </div>
     );

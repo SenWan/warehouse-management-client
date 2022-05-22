@@ -17,12 +17,12 @@ const Login = () => {
   let from = location.state?.from?.pathname || '/';
   let fixerror;
 
-  const handleSubmit = event => {
+  const handleSubmit = async event => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
 
-    signInWithEmailAndPassword(email, password)
+    signInWithEmailAndPassword(email, password);
   }
 
   const [
